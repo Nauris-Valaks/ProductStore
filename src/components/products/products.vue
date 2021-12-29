@@ -20,9 +20,8 @@
           :items="productList"
           :search="search"
           :loading="loading"
+          :items-per-page="8"
           loading-text="Loading Products..."
-          hide-default-footer
-          disable-pagination
         >
           <v-row row wrap v-if="!loading" slot-scope="props">
             <v-col

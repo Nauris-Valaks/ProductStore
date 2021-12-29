@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "json-server ./generator.js --port 8080 --delay 500"
+    "start": "json-server ./generator.js --port 8080 --delay 500",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run serve\""
   },
   "dependencies": {
     "axios": "^0.24.0",
