@@ -6,6 +6,10 @@
 npm install
 ```
 
+### Starts json server and client if doesn't work then run commands individually in separate terminals
+```
+npm run dev
+```
 ### Starts json server
 
 ```
