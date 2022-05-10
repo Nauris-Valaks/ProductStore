@@ -3,25 +3,16 @@
 ## Project setup
 
 ```
-npm install
+npm install and npm install -g concurrently to allow running 2 scripts at once. This will build server and client
 ```
 
 ### Starts json server and client if doesn't work then run commands individually in separate terminals
+
 ```
 npm run dev
 ```
-### Starts json server
 
-```
-npm run start
-
-```
-
-### In new terminal. Starts client.
-
-```
-npm run serve
-```
+### Navigate to localhost:8081 to access home page
 
 ### Intitial cart items are from user where id = 1
 
