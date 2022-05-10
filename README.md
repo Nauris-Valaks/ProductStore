@@ -3,7 +3,7 @@
 ## Project setup
 
 ```
-npm install and npm install -g concurrently to allow running 2 scripts at once. This will build server and client
+npm install
 ```
 
 ### Starts json server and client if doesn't work then run commands individually in separate terminals
